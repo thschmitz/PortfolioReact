@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+  background-color: rgb(36, 35, 35);
+}
+
+header{
+  display:flex;
+  justify-content: space-around;
+}
+
+.menos-espacamento{
+  margin-top: -20px;
+}
+
+.logo img{
+  width: 80px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.menu{
+  color:white;
+  font-size: 20px;
+  margin: 60px;
+
+}
+
+.menu a{
+  color:white;
+  text-decoration: none;
+}
+
+.singleObject{
+  padding: 20px;
+  cursor:pointer;
+}
+
+.mainContent{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.nome{
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.nome h1{
+  color:white;
+  font-weight: normal;
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.nome img{
+  border-radius: 125px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.caracteristicas{
+  width: 50%;
+  text-align: center;
+  color:white;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.caracteristicas h3{
+  font-size: 30px;
+}
+
+.caracteristicas h5{
+  color:#ccc;
+  margin-right: 210px;
+}
+
+.skills{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.caracteristicas b{
+  font-size: 18px;
+}
+
+.caracteristicas p{
+  font-size: 15px;
+  color:rgb(220, 215, 215);
+  padding: 5px;
+  font-weight: normal;
+}
+
+.contact{
+  font-size: 40px;
+  margin: 20px;
+}
+
+.contact i{
+  padding: 20px;
+  cursor:pointer;
+}
+
+.menu a:hover{
+  transition: 1s;
+  font-size: 21px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+}
+
+.tema{
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.botao{
+  display:none;
+}
+
+.voltar{
+  color:white;
+}
+
+@media (max-width: 500px){
+  .nome{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+

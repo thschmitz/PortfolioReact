@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contato h1{
+    color:#ccc;
+    margin-bottom: 20px;
+}
+
+section.contato{
+    padding:20px 0;
+    text-align: center;
+}
+
+section.contato h1{
+    font-size: 50px;
+}
+
+section.contato form{
+    width: 100%;
+}
+
+input::placeholder{
+    color: #7E92AC;
+    font-style: bold;
+}
+
+.contato input[type="text"],
+.contato input[type="email"]
+{
+    color: #7E92AC;
+    width: 60%;
+    height:45px;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    color: #7E92AC;
+}
+
+.contato textarea{
+    color: #7E92AC;
+    width: 50%;
+    height: 120px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    resize: vertical;
+    font-weight: bold;
+}
+
+
+.contato input[type="submit"]{
+    width: 60%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    resize: vertical;
+    background: ccc;
+    color:#7c7e87;
+    font-style: arial;
+    cursor:pointer;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+@media( max-width: 500px) {
+    .contato input{
+        width: 100% !important;
+        height: 40px !important;
+        font-size: 12px;
+    }
+
+    .contato textarea{
+        width: 100% !important;
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .contato h1{
+        font-size: 30px !important;
+    }
+
+    .contato input[type="submit"]{
+        font-size: 18px !important;
+    }
+}
